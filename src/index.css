@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-display: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --color-paper: #FDFCFB;
+  --color-paper-warm: #FAF8F5;
+  --color-paper-card: #FFFFFF;
+  --color-ink: #1A1A1A;
+  --color-ink-light: #2D2B2A;
+  --color-ink-muted: #6B6864;
+  --color-accent-gold: #9E7D46;
+  --color-accent-gold-dark: #7A5F32;
+}
+
+@layer base {
+  body {
+    background-color: #FDFCFB;
+    color: #1A1A1A;
+    font-family: var(--font-sans);
+  }
+}

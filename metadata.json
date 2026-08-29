@@ -1,0 +1,6 @@
+{
+  "name": "Rajdeep Garments",
+  "description": "Premier men's ethnic, groom wear, sherwanis, kurta sets, and designer celebration wear in Dharavi, Mumbai.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
